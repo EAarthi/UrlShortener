@@ -7,7 +7,7 @@
     const handleSubmit = async (e) => {
       e.preventDefault();
 
-      const response = await fetch("https://41ha830bid.execute-api.ap-south-1.amazonaws.com/v1/create", {
+      const response = await fetch("https://jpfbh8kwpa.execute-api.ap-south-1.amazonaws.com/create", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
